@@ -8,7 +8,7 @@ print("Resultado: ",Resultado)
 """
 print("="*45)
 print("Calculadora e Conversor".center(45))# outra forma de alinhar ao centro
-#print(f"{'Teste':^45}")#alinha ao centro
+#print(f"{'Teste':^45}")# Alinhamento ao centro, mesmo resultado do .center()
 print("="*45)
 
 while True:
