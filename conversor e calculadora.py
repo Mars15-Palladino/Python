@@ -32,18 +32,21 @@ while True:
                 num2 = float(input("Informe outro numero: ").strip().replace(",","."))#pede para digitar pelo teclado
                 Resultado = num1 + num2
                 print("Resultado: ",Resultado)
+                input("Pressione ENTER para voltar ao menu")
                 print("="*45)
             case "2":
                 num1 = float(input("Informe um numero: ").strip().replace(",","."))#pede para digitar pelo teclado
                 num2 = float(input("Informe outro numero: ").strip().replace(",","."))#pede para digitar pelo teclado
                 Resultado = num1 - num2
                 print("Resultado: ",Resultado)
+                input("Pressione ENTER para voltar ao menu")
                 print("=" * 45)
             case "3":
                 num1 = float(input("Informe um numero: ").strip().replace(",","."))
                 num2 = float(input("Informe outro numero: ").strip().replace(",","."))
                 Resultado = num1 * num2
                 print("Resultado: ",Resultado)
+                input("Pressione ENTER para voltar ao menu")
                 print("=" * 45)
             case "4":
                 num1 = float(input("Informe um numero: ").strip().replace(",","."))
@@ -54,6 +57,7 @@ while True:
                 else:
                     Resultado = num1 / num2
                     print(f"Resultado: {Resultado:.1f}")
+                    input("Pressione ENTER para voltar ao menu")
                     print("=" * 45)
             case "5":
                 print("=" * 45)
