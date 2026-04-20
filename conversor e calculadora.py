@@ -97,6 +97,7 @@ while True:
                     print("Valor em Metros informado: ", ValorEmMetros)
                     ConverterParaKilometros = (ValorEmMetros / 1000)
                     print(f"Resultado em KM: {ConverterParaKilometros:.3f}")
+                    input("Pressione ENTER para voltar ao menu")
                     print("=" * 45)
                 elif opcaoC == "4":
                     print("Conversão para Milhas")
@@ -104,9 +105,11 @@ while True:
                     ValorEmKilometros = float(input("Informe o valor em kilometros: ").strip().replace(",","."))
                     print("="*45)
                     print("Valor em Kilometros: ",ValorEmKilometros)
+                    input("Pressione ENTER para ver o resultado da conversão")
                     print("=" * 45)
                     ValorEmMilhas = (ValorEmKilometros * 0.621371)
                     print("Distância em Milhas: ", ValorEmMilhas)
+                    input("Pressione ENTER para voltar ao menu")
                     print("=" * 45)
                 else:
                     print("Apenas as opções Listadas")
